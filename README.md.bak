@@ -11,9 +11,9 @@
 
 </div>
 
-# 🤖 AI-Powered E-commerce Platform with Real-time Content
+# 🛋️ AI-Powered E-commerce Platform with Real-time Content
 
-> Build a modern STEM robotics equipment store with an AI shopping assistant, real-time inventory updates, and a powerful admin dashboard — all powered by cutting-edge technologies.
+> Build a modern furniture e-commerce store with an AI shopping assistant, real-time inventory updates, and a powerful admin dashboard — all powered by cutting-edge technologies.
 
 <div align="center">
 
@@ -29,23 +29,23 @@
 
 Use THESE links to set up your accounts (It's a special affiliate link which lets us continue to do builds like this FREE for you!):
 
-- [**Get Started with Sanity →**](https://www.sanity.io/pkoooo?utm_source=youtube&utm_medium=video&utm_content=ai-ecommerce-platform)
+- [**Get Started with Sanity →**](https://www.sanity.io/sonny?utm_source=youtube&utm_medium=video&utm_content=ai-ecommerce-platform)
 - [**Get Started with Clerk →**](https://go.clerk.com/uc48FAP)
 
 | Service | Description | ‼️ LINK TO USE ‼️ |
 |---------|-------------|------|
-| 🧡 **Sanity** | Headless CMS with real-time capabilities & App SDK | [**Get Started with Sanity →**](https://www.sanity.io/pkoooo?utm_source=youtube&utm_medium=video&utm_content=ai-ecommerce-platform) |
+| 🧡 **Sanity** | Headless CMS with real-time capabilities & App SDK | [**Get Started with Sanity →**](https://www.sanity.io/sonny?utm_source=youtube&utm_medium=video&utm_content=ai-ecommerce-platform) |
 | 💜 **Clerk** | Authentication with AgentKit for AI context | [**Get Started with Clerk →**](https://go.clerk.com/uc48FAP) |
 
 ---
 
 ## 🤔 What Is This App?
 
-**Think of it as a STEM robotics equipment store with a brain.**
+**Think of it as a furniture store with a brain.**
 
 This is a full-featured e-commerce platform where customers can:
 
-- 🛒 **Browse & Buy** — Shop STEM robotics equipment with real-time stock updates
+- 🛒 **Browse & Buy** — Shop premium furniture with real-time stock updates
 - 🤖 **Chat with AI** — Ask the AI assistant to find products, check prices, or track orders
 - 📦 **Track Orders** — View order history and delivery status (when signed in)
 
@@ -97,6 +97,32 @@ And store owners get:
 ✅ **Webhook-driven order creation** with automatic stock management!
 
 ✅ **Embedded Sanity Studio** for content management at `/studio`! + SO MUCH MORE!
+
+---
+
+## 🚀 Before We Dive In - Join the PAPAFAM!
+
+**Want to build apps like this from scratch?**
+
+Join thousands of developers learning to build production-ready applications with the latest technologies.
+
+### PAPAFAM Community Benefits
+
+- 🎓 Step-by-step video tutorials
+- 💬 Private Discord community
+- 🔥 Weekly coding challenges
+- 📁 Access to all project source code
+- 🏆 Certificate of completion
+
+### Real Results
+
+> "I landed my first developer job after completing the PAPAFAM course!" — Community Member
+
+<div align="center">
+
+### [🎯 Join the PAPAFAM Course →](https://www.papareact.com/course)
+
+</div>
 
 ---
 
@@ -208,7 +234,7 @@ Before you begin, ensure you have:
 
 - **Node.js 18+** — [Download here](https://nodejs.org/)
 - **pnpm** — Install with `npm install -g pnpm`
-- **Sanity Account** — [Create free account](https://www.sanity.io/pkoooo?utm_source=youtube&utm_medium=video&utm_content=ai-ecommerce-platform)
+- **Sanity Account** — [Create free account](https://www.sanity.io/sonny?utm_source=youtube&utm_medium=video&utm_content=ai-ecommerce-platform)
 - **Clerk Account** — [Create free account](https://go.clerk.com/uc48FAP)
 - **Stripe Account** — [Create account](https://stripe.com/)
 - **Vercel Account** — For AI Gateway access
@@ -218,7 +244,7 @@ Before you begin, ensure you have:
 #### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/pkoooosangha/ai-ecommerce-sanity-clerk.git
+git clone https://github.com/sonnysangha/ai-ecommerce-sanity-clerk.git
 cd ai-ecommerce-sanity-clerk
 ```
 
@@ -299,7 +325,7 @@ stripe listen --forward-to localhost:3000/api/webhooks/stripe
 # Generate TypeScript types from Sanity schema
 pnpm typegen
 
-# Import sample data
+# Import sample furniture data
 npx sanity dataset import sample-data.ndjson
 ```
 
@@ -447,7 +473,7 @@ export function createShoppingAgent({ userId }: { userId: string | null }) {
 ```typescript
 // lib/ai/tools/search-products.ts
 export const searchProductsTool = tool({
-  description: "Search for products in the STEM robotics equipment store",
+  description: "Search for products in the furniture store",
   inputSchema: z.object({
     query: z.string().optional(),
     category: z.string().optional(),
@@ -678,6 +704,8 @@ See [LICENSE.md](./LICENSE.md) for full details.
 
 <div align="center">
 
-**Built with ❤️ by [pkoooo](https://github.com/pkoooo)**
+**Built with ❤️ by [Sonny Sangha](https://www.papareact.com/) & the PAPAFAM Community**
+
+[YouTube](https://www.youtube.com/@SonnySangha) · [Twitter](https://twitter.com/sonnysangha) · [Course](https://www.papareact.com/course)
 
 </div>
