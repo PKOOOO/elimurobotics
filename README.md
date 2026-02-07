@@ -218,8 +218,8 @@ Before you begin, ensure you have:
 #### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/pkoooosangha/ai-ecommerce-sanity-clerk.git
-cd ai-ecommerce-sanity-clerk
+git clone https://github.com/pkoooo/elimurobotics.git
+cd elimurobotics
 ```
 
 #### 2. Install Dependencies
