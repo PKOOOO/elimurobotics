@@ -1,8 +1,10 @@
-<![CDATA[# Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)
+# Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)
 
 ## AI-Powered E-commerce Platform
 
-**Copyright (c) 2024 Sonny Sangha / PAPAFAM**
+**Copyright (c) 2024 TechKidz Africa**
+
+https://techkidzafrica.co.ke
 
 ---
 
@@ -35,8 +37,8 @@ You must give appropriate credit, provide a link to the license, and indicate if
 **Required attribution format:**
 
 ```
-Based on work by Sonny Sangha / PAPAFAM
-Original source: https://github.com/sonnysangha/ai-ecommerce-sanity-clerk
+Based on work by TechKidz Africa
+Original source: https://techkidzafrica.co.ke
 License: CC BY-NC 4.0
 ```
 
@@ -92,7 +94,8 @@ If you want to use this project for commercial purposes, you must obtain a comme
 
 ### Contact for Commercial Licensing
 
-📧 **Email:** contact@papareact.com
+📧 **Email:** contact@techkidzafrica.co.ke  
+🌐 **Web:** https://techkidzafrica.co.ke
 
 ### What Commercial License Includes
 
@@ -122,7 +125,8 @@ https://creativecommons.org/licenses/by-nc/4.0/legalcode
 
 If you're unsure whether your use case qualifies as commercial or non-commercial, please reach out:
 
-📧 **contact@papareact.com**
+📧 **contact@techkidzafrica.co.ke**  
+🌐 **https://techkidzafrica.co.ke**
 
 We're happy to clarify and discuss licensing options.
 
@@ -130,5 +134,4 @@ We're happy to clarify and discuss licensing options.
 
 **Thank you for respecting the terms of this license and supporting open-source education!**
 
-*— Sonny Sangha & the PAPAFAM Community*
-]]>
+*— TechKidz Africa*
