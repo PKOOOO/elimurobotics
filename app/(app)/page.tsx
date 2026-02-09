@@ -94,10 +94,10 @@ export default async function HomePage({ searchParams }: PageProps) {
       <div className="border-b border-zinc-200 bg-white dark:border-zinc-800 dark:bg-zinc-950">
         <div className="mx-auto max-w-7xl px-4 pt-8 sm:px-6 lg:px-8">
           <h1 className="text-2xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100">
-            Shop {categorySlug ? categorySlug : "All Products"}
+            Shop {categorySlug ? categorySlug : "All Robotics components"}
           </h1>
           <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-400">
-            Premium furniture for your home
+            Premium robotics components for your projects
           </p>
         </div>
 
@@ -120,3 +120,4 @@ export default async function HomePage({ searchParams }: PageProps) {
     </div>
   );
 }
+
