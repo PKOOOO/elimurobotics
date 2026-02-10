@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { Package, ShoppingBag, Sparkles, User } from "lucide-react";
 import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
@@ -15,12 +16,16 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-zinc-200 bg-white/80 backdrop-blur-md dark:border-zinc-800 dark:bg-zinc-950/80">
-      <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto flex h-24 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
-          <span className="text-xl font-bold text-zinc-900 dark:text-zinc-100">
-            The Furniture Store
-          </span>
+          <Image
+            src="/logo.svg"
+            alt="Elimu Robotics logo"
+            width={68}
+            height={68}
+            className="h-26 w-26"
+          />
         </Link>
 
         {/* Actions */}
